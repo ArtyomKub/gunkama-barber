@@ -4,7 +4,7 @@ import './App.css';
 const App = () => {
     return (
         <div>
-            <div>one div</div>
+            <div><Header/></div>
             <div className={'App'}>
                 <ul>
                     <li>CSS</li>
@@ -13,6 +13,16 @@ const App = () => {
                     <li>React</li>
                 </ul>
             </div>
+        </div>
+    )
+}
+
+const Header = () => {
+    return (
+        <div>
+            <a href="#s">Home</a>
+            <a href="#s">News Feed</a>
+            <a href="#s">Messages</a>
         </div>
     )
 }
