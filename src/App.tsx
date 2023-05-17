@@ -1,25 +1,13 @@
 import React from 'react';
 import './App.css';
 import {Technologies} from "./Technologies";
+import {Header} from "./Header";
 
 const App = () => {
     return (
         <div>
             <Header/>
             <Technologies/>
-        </div>
-    )
-}
-
-
-
-const Header = () => {
-    return (
-        <div>
-            <a href="#s">Home</a>
-            <a href="#s">News Feed</a>
-            <a href="#s">Messages</a>
-            <a href="#s">Messages</a>
         </div>
     )
 }
